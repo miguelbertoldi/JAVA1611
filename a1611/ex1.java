@@ -24,17 +24,20 @@ public class ex1 {
 				System.out.printf(arr[n][g] +"  ");
 			}
 		}
+		
 		System.out.printf("\n------------ SOMA ------------\n");
 		for(int m=0; m<10; m++) {
 			System.out.printf(totalC[m] +" ");
 		}
-		System.out.printf("\n-------- MULTIPLICAÇÃO --------\n");
+		
+		System.out.printf("\n-------- MULTIPLICAÃ‡ÃƒO --------\n");
 		for(int i=0; i<20; i++) {
 			soma = 0;
 			for(int j=0; j<10; j++) {
 				arr2[i][j] =arr[i][j]*totalC[j];
 			}
 		}
+		
 		for(int n=0; n<20; n++) {
 			System.out.printf("\n");
 			for(int g=0; g<10; g++) {
@@ -42,5 +45,4 @@ public class ex1 {
 				}
 			}
 		}
-
 	}
