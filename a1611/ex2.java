@@ -37,13 +37,9 @@ public class ex2 {
 				if(arr[i][j]>arr2[i][j]) {
 					System.out.printf(arr[i][j] +" ");
 				}else {
-					System.out.printf(arr2[i][j] +" ");
-					
+					System.out.printf(arr2[i][j] +" ");			
 				}
 			}
-		}
-		
-		
+		}	
 	}
-
 }
