@@ -17,22 +17,22 @@ public class ex3 {
 				System.out.printf(arr[i][j] +" ");
 			}
 		}
-		System.out.println("\n\nDigite o número que deseja buscar: ");
+		
+		System.out.println("\n\nDigite o nÃºmero que deseja buscar: ");
 		busca = ler.nextInt();
+		
 		for(int i=0; i<5; i++) {
 			for(int j=0; j<5; j++) {
 				if(busca==arr[i][j]) {
-					System.out.println("O número está na linha " +(i+1) +" x coluna " +(j+1));
+					System.out.println("O nÃºmero estÃ¡ na linha " +(i+1) +" x coluna " +(j+1));
 				}else {
 					contador++;
 				}
 			}
 		}
+		
 		if(contador>=25) {
-			System.out.println("O número não está na matriz!");
-		}
-		
-		
+			System.out.println("O nÃºmero nÃ£o estÃ¡ na matriz!");
+		}	
 	}
-
 }
